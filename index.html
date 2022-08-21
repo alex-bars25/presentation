@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+    <div class="reveal">
+			<div class="slides">
+        <section data-markdown>
+          ## Machine Learning
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+            - What is machine learning? <!-- .element: class="fragment" data-fragment-index="1" -->
+            - How does machine learning work? <!-- .element: class="fragment" data-fragment-index="2" -->            
+            - Applications of machine learning <!-- .element: class="fragment" data-fragment-index="3" -->            
+          </textarea>
+        </section>
+        <section>
+          <section>
+            What is machine learning?
+          </section>
+          <section>
+            "Field of study that gives computers the capability to learn without being explicitly programmed".
+          </section>
+          <section>
+            <img src="./assets/img1.jpg">
+          </section>
+        </section>
+        <section>
+          <section>
+            How does machine learning work?
+          </section>
+          <section>
+            <img src="./assets/img2.svg">
+          </section>
+          <section>
+            <img src="./assets/img3.svg">
+          </section>
+        </section>
+        <section>
+          <section>
+            Applications of machine learning
+          </section>
+          <section>
+            <img src="./assets/img4.jpg">
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+              - Facial recognition/Image recognition <!-- .element: class="fragment" data-fragment-index="1" -->
+              - Automatic Speech Recognition <!-- .element: class="fragment" data-fragment-index="2" -->            
+              - Financial Services <!-- .element: class="fragment" data-fragment-index="3" -->            
+              - Marketing and Sales <!-- .element: class="fragment" data-fragment-index="4" -->            
+              - Healthcare <!-- .element: class="fragment" data-fragment-index="5" -->            
+              - Recommendation Systems <!-- .element: class="fragment" data-fragment-index="6" -->            
+            </textarea>
+          </section>
+        </section>
+      </div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
